@@ -1,8 +1,7 @@
 # Chart-library-PHP
 Library with chart with people which visit webiste
 
-## Requirements
-### Tables
+## Tables
 On start you nedd have to create two tables, first is `Move` to save moves on webiste and last 'Users'. You can copy code from down below. Id_user column are connect, because you can find fastest user which visit many times your website. In Date column in Move table you will saveing date when user visited website. 
 
 ```sql
@@ -25,4 +24,4 @@ CREATE TABLE `Move` (
 );
 ```
 
-## Description
+## Code review
